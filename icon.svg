@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#141922"/>
+      <stop offset="100%" stop-color="#0d1015"/>
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF764D"/>
+      <stop offset="50%" stop-color="#00D2FF"/>
+      <stop offset="100%" stop-color="#2EE6A8"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="#0d1015"/>
+  <rect x="52" y="52" width="408" height="408" rx="68" fill="url(#bgGrad)" stroke="#2A3242" stroke-width="6"/>
+  <rect x="86" y="88" width="340" height="142" rx="22" fill="#090C11" stroke="#222938" stroke-width="4"/>
+  <line x1="94" y1="159" x2="418" y2="159" stroke="#1E2533" stroke-width="2"/>
+  <path d="M104 159 L140 112 L172 204 L208 104 L244 212 L282 110 L318 198 L354 126 L384 176 L408 159" fill="none" stroke="url(#waveGrad)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="86" y="256" width="74" height="74" rx="14" fill="#2EE6A8"/>
+  <rect x="174" y="256" width="74" height="74" rx="14" fill="#00D2FF"/>
+  <rect x="262" y="256" width="74" height="74" rx="14" fill="#FFB020"/>
+  <rect x="350" y="256" width="76" height="74" rx="14" fill="#FF764D"/>
+  <rect x="86" y="346" width="74" height="74" rx="14" fill="#232A36" stroke="#394356" stroke-width="3"/>
+  <rect x="174" y="346" width="74" height="74" rx="14" fill="#D68B7E"/>
+  <rect x="262" y="346" width="74" height="74" rx="14" fill="#232A36" stroke="#394356" stroke-width="3"/>
+  <rect x="350" y="346" width="76" height="74" rx="14" fill="#CFD6E0"/>
+</svg>
